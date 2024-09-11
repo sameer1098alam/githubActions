@@ -1,3 +1,11 @@
-sadfffsdads
-
-dsfds
+name: Hello World Workflow
+on:
+  push:
+    branches:
+      - main
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello world
+        run: echo "Hello, World!"

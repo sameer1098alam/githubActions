@@ -3,7 +3,7 @@ date in javascript
 MDN websites and access the resources
 
 Steps
-**************\_\_**************-
+**\*\***\*\***\*\***\_\_**\*\***\*\***\*\***-
 
 1. setup a basic react app
 2. Github Actions
@@ -18,3 +18,40 @@ create a new Branch ,push code and pull request
 
 1. build
 2. UTc and ITs
+
+YAML->YAML is not markup language
+
+It was more readable compared to to JSON-> special characteres are not allowed in YAML
+
+For validation you can use online tools like https://yamlvalidator.com/ or https://jsonlint.com/ for JSON
+
+Key:Value
+ARRAYS:John Doe
+Age:25
+Married:No
+Children:
+-Alice
+-Bob
+-Charlie
+
+```
+car:
+    model: Toyota
+    features:
+        - Airbags
+        - ABS
+        - GPS
+
+
+        #This is a comment
+        #This is a comment   describe the about file
+    sentence: "This is a sentence"
+
+
+    literal:|
+        This is a literal
+        text block
+        that spans multiple lines
+
+
+```
